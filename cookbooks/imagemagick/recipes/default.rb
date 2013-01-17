@@ -1,6 +1,6 @@
-#remote_file "/usr/local/src/ImageMagick.tar.gz" do
-#source "http://www.imagemagick.org/download/ImageMagick.tar.gz"
-#end
+remote_file "/usr/local/src/ImageMagick.tar.gz" do
+source "http://www.imagemagick.org/download/ImageMagick.tar.gz"
+end
 
 bash "Extract and Install ImageMagick" do
 user "root"
@@ -10,8 +10,6 @@ code <<-EOH
 cd ImageMagick-6.8.1-9
 ./configure
 make
-checkinstall
+make install
 EOH
 end
-
-
