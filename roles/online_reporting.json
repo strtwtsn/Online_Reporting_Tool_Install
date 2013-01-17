@@ -1,1 +1,2 @@
+
 { "run_list": [ "recipe[postgres]","recipe[imagemagick]","recipe[redis]","recipe[authlogic]","recipe[delayed_job]","recipe[exception_notification]","recipe[pg_gem]","recipe[rails]" ] }
