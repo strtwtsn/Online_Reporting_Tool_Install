@@ -16,5 +16,5 @@ It will also install the following gems:-
 - authlogic (2.1.6)
 
 
-You can use the install file to carry out the install.  It will install Ruby its necessary dependencies and then install the remaining packages.
+You can use the install file to carry out the install.  It will install Ruby, its dependencies and then the remaining packages.
 
