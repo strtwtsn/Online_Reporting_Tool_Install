@@ -6,8 +6,8 @@ bash "Extract and Install ImageMagick" do
 user "root"
 cwd "/usr/local/src"
 code <<-EOH
-#tar xvzf ImageMagick.tar.gz
-cd ImageMagick-6.8.1-9
+tar xvzf ImageMagick.tar.gz
+cd ImageMagick-*
 ./configure
 make
 make install
